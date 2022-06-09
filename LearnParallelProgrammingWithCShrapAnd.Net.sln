@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_Programming", "Task_Programming", "{38A56737-81A0-49C2-8314-D1CE5B9B86D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingAndStartingTasks", "CreatingAndStartingTasks\CreatingAndStartingTasks.csproj", "{1A30CDF8-ED81-4C6E-9172-75034A7381BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingTasks", "CancellingTasks\CancellingTasks.csproj", "{4223ECD0-1102-4D2E-BD12-C01D63D3077C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTimeToPass", "WaitingForTimeToPass\WaitingForTimeToPass.csproj", "{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTasks", "WaitingForTasks\WaitingForTasks.csproj", "{C0EDC5AF-F28D-4F43-B42F-EED500E84415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingTasks", "ExceptionHandlingTasks\ExceptionHandlingTasks.csproj", "{0D86E443-5F52-4B5A-BB5D-32345D134D97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A30CDF8-ED81-4C6E-9172-75034A7381BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A30CDF8-ED81-4C6E-9172-75034A7381BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A30CDF8-ED81-4C6E-9172-75034A7381BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A30CDF8-ED81-4C6E-9172-75034A7381BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4223ECD0-1102-4D2E-BD12-C01D63D3077C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4223ECD0-1102-4D2E-BD12-C01D63D3077C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4223ECD0-1102-4D2E-BD12-C01D63D3077C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4223ECD0-1102-4D2E-BD12-C01D63D3077C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EDC5AF-F28D-4F43-B42F-EED500E84415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EDC5AF-F28D-4F43-B42F-EED500E84415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EDC5AF-F28D-4F43-B42F-EED500E84415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EDC5AF-F28D-4F43-B42F-EED500E84415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D86E443-5F52-4B5A-BB5D-32345D134D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D86E443-5F52-4B5A-BB5D-32345D134D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D86E443-5F52-4B5A-BB5D-32345D134D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D86E443-5F52-4B5A-BB5D-32345D134D97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A30CDF8-ED81-4C6E-9172-75034A7381BD} = {38A56737-81A0-49C2-8314-D1CE5B9B86D6}
+		{4223ECD0-1102-4D2E-BD12-C01D63D3077C} = {38A56737-81A0-49C2-8314-D1CE5B9B86D6}
+		{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7} = {38A56737-81A0-49C2-8314-D1CE5B9B86D6}
+		{C0EDC5AF-F28D-4F43-B42F-EED500E84415} = {38A56737-81A0-49C2-8314-D1CE5B9B86D6}
+		{0D86E443-5F52-4B5A-BB5D-32345D134D97} = {38A56737-81A0-49C2-8314-D1CE5B9B86D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B8BC112-80FD-431D-A377-8FB97D665A54}
+	EndGlobalSection
+EndGlobal
