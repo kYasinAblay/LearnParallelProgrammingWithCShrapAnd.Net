@@ -5,15 +5,29 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_Programming", "Task_Programming", "{38A56737-81A0-49C2-8314-D1CE5B9B86D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingAndStartingTasks", "CreatingAndStartingTasks\CreatingAndStartingTasks.csproj", "{1A30CDF8-ED81-4C6E-9172-75034A7381BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingAndStartingTasks", "CreatingAndStartingTasks\CreatingAndStartingTasks.csproj", "{1A30CDF8-ED81-4C6E-9172-75034A7381BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingTasks", "CancellingTasks\CancellingTasks.csproj", "{4223ECD0-1102-4D2E-BD12-C01D63D3077C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellingTasks", "CancellingTasks\CancellingTasks.csproj", "{4223ECD0-1102-4D2E-BD12-C01D63D3077C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTimeToPass", "WaitingForTimeToPass\WaitingForTimeToPass.csproj", "{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitingForTimeToPass", "WaitingForTimeToPass\WaitingForTimeToPass.csproj", "{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTasks", "WaitingForTasks\WaitingForTasks.csproj", "{C0EDC5AF-F28D-4F43-B42F-EED500E84415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitingForTasks", "WaitingForTasks\WaitingForTasks.csproj", "{C0EDC5AF-F28D-4F43-B42F-EED500E84415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingTasks", "ExceptionHandlingTasks\ExceptionHandlingTasks.csproj", "{0D86E443-5F52-4B5A-BB5D-32345D134D97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandlingTasks", "ExceptionHandlingTasks\ExceptionHandlingTasks.csproj", "{0D86E443-5F52-4B5A-BB5D-32345D134D97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSharingAndSynchronization", "DataSharingAndSynchronization", "{1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConcurrentCollections", "ConcurrentCollections", "{055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalSections", "CriticalSections\CriticalSections.csproj", "{4A484FFF-4246-4307-8750-CBD82C254122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{793BB23A-78A0-49BB-808F-8D4515778DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockingAndLockRecursion", "SpinLockingAndLockRecursion\SpinLockingAndLockRecursion.csproj", "{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader_Writer_Locks", "Reader_Writer_Locks\Reader_Writer_Locks.csproj", "{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +55,26 @@ Global
 		{0D86E443-5F52-4B5A-BB5D-32345D134D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D86E443-5F52-4B5A-BB5D-32345D134D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D86E443-5F52-4B5A-BB5D-32345D134D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A484FFF-4246-4307-8750-CBD82C254122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A484FFF-4246-4307-8750-CBD82C254122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A484FFF-4246-4307-8750-CBD82C254122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A484FFF-4246-4307-8750-CBD82C254122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793BB23A-78A0-49BB-808F-8D4515778DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793BB23A-78A0-49BB-808F-8D4515778DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793BB23A-78A0-49BB-808F-8D4515778DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793BB23A-78A0-49BB-808F-8D4515778DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +85,11 @@ Global
 		{B0722B20-1CD5-4B25-9978-92C2CE6FE7D7} = {38A56737-81A0-49C2-8314-D1CE5B9B86D6}
 		{C0EDC5AF-F28D-4F43-B42F-EED500E84415} = {38A56737-81A0-49C2-8314-D1CE5B9B86D6}
 		{0D86E443-5F52-4B5A-BB5D-32345D134D97} = {38A56737-81A0-49C2-8314-D1CE5B9B86D6}
+		{4A484FFF-4246-4307-8750-CBD82C254122} = {1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}
+		{793BB23A-78A0-49BB-808F-8D4515778DA5} = {1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}
+		{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A} = {1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}
+		{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA} = {1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}
+		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8} = {1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8BC112-80FD-431D-A377-8FB97D665A54}
