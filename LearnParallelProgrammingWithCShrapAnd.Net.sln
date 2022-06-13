@@ -19,15 +19,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSharingAndSynchronizati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConcurrentCollections", "ConcurrentCollections", "{055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalSections", "CriticalSections\CriticalSections.csproj", "{4A484FFF-4246-4307-8750-CBD82C254122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriticalSections", "CriticalSections\CriticalSections.csproj", "{4A484FFF-4246-4307-8750-CBD82C254122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{793BB23A-78A0-49BB-808F-8D4515778DA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{793BB23A-78A0-49BB-808F-8D4515778DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockingAndLockRecursion", "SpinLockingAndLockRecursion\SpinLockingAndLockRecursion.csproj", "{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpinLockingAndLockRecursion", "SpinLockingAndLockRecursion\SpinLockingAndLockRecursion.csproj", "{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mutex", "Mutex\Mutex.csproj", "{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader_Writer_Locks", "Reader_Writer_Locks\Reader_Writer_Locks.csproj", "{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reader_Writer_Locks", "Reader_Writer_Locks\Reader_Writer_Locks.csproj", "{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentDictionary", "ConcurrentDictionary\ConcurrentDictionary.csproj", "{073C9F2E-EA21-4918-A94B-342E6907DB16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentQueue", "ConcurrentQueue\ConcurrentQueue.csproj", "{4581D5BD-88D6-437F-BF1B-FEC0CF35A27A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentStack", "ConcurrentStack\ConcurrentStack.csproj", "{0910D335-6DA3-4638-B38A-89E14CB46672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentBag", "ConcurrentBag\ConcurrentBag.csproj", "{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingCollectionAndTheProducer_ConsumerPattern", "BlockingCollectionAndTheProducer_ConsumerPattern\BlockingCollectionAndTheProducer_ConsumerPattern.csproj", "{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +85,26 @@ Global
 		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073C9F2E-EA21-4918-A94B-342E6907DB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073C9F2E-EA21-4918-A94B-342E6907DB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073C9F2E-EA21-4918-A94B-342E6907DB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073C9F2E-EA21-4918-A94B-342E6907DB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4581D5BD-88D6-437F-BF1B-FEC0CF35A27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4581D5BD-88D6-437F-BF1B-FEC0CF35A27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4581D5BD-88D6-437F-BF1B-FEC0CF35A27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4581D5BD-88D6-437F-BF1B-FEC0CF35A27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0910D335-6DA3-4638-B38A-89E14CB46672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0910D335-6DA3-4638-B38A-89E14CB46672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0910D335-6DA3-4638-B38A-89E14CB46672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0910D335-6DA3-4638-B38A-89E14CB46672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +120,11 @@ Global
 		{A3C564AE-E98B-48DC-BA3C-D28CE6C7270A} = {1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}
 		{DEF5C722-0CC3-4B0A-BC5B-2F484EF194BA} = {1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}
 		{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8} = {1EC6B3AA-D316-4C04-B8FB-EA63C62C6EA4}
+		{073C9F2E-EA21-4918-A94B-342E6907DB16} = {055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}
+		{4581D5BD-88D6-437F-BF1B-FEC0CF35A27A} = {055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}
+		{0910D335-6DA3-4638-B38A-89E14CB46672} = {055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}
+		{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4} = {055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}
+		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0} = {055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8BC112-80FD-431D-A377-8FB97D665A54}
