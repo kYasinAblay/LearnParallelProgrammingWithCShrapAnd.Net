@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentBag", "Concurrent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingCollectionAndTheProducer_ConsumerPattern", "BlockingCollectionAndTheProducer_ConsumerPattern\BlockingCollectionAndTheProducer_ConsumerPattern.csproj", "{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_Coordination", "Task_Coordination", "{0632182C-1CBF-4D04-90B5-79419BD8C24A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
