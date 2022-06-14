@@ -29,17 +29,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mutex", "Mutex\Mutex.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reader_Writer_Locks", "Reader_Writer_Locks\Reader_Writer_Locks.csproj", "{CFDEB0C6-791C-42C0-82FF-996ABA9A97E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentDictionary", "ConcurrentDictionary\ConcurrentDictionary.csproj", "{073C9F2E-EA21-4918-A94B-342E6907DB16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentDictionary", "ConcurrentDictionary\ConcurrentDictionary.csproj", "{073C9F2E-EA21-4918-A94B-342E6907DB16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentQueue", "ConcurrentQueue\ConcurrentQueue.csproj", "{4581D5BD-88D6-437F-BF1B-FEC0CF35A27A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentQueue", "ConcurrentQueue\ConcurrentQueue.csproj", "{4581D5BD-88D6-437F-BF1B-FEC0CF35A27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentStack", "ConcurrentStack\ConcurrentStack.csproj", "{0910D335-6DA3-4638-B38A-89E14CB46672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentStack", "ConcurrentStack\ConcurrentStack.csproj", "{0910D335-6DA3-4638-B38A-89E14CB46672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentBag", "ConcurrentBag\ConcurrentBag.csproj", "{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentBag", "ConcurrentBag\ConcurrentBag.csproj", "{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingCollectionAndTheProducer_ConsumerPattern", "BlockingCollectionAndTheProducer_ConsumerPattern\BlockingCollectionAndTheProducer_ConsumerPattern.csproj", "{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockingCollectionAndTheProducer_ConsumerPattern", "BlockingCollectionAndTheProducer_ConsumerPattern\BlockingCollectionAndTheProducer_ConsumerPattern.csproj", "{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_Coordination", "Task_Coordination", "{0632182C-1CBF-4D04-90B5-79419BD8C24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Continuations", "Continuations\Continuations.csproj", "{6CA75D40-38AA-49D2-BA43-D6AE5B511849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildTasks", "ChildTasks\ChildTasks.csproj", "{9715AE5E-401B-48D8-B22B-084621DEC07F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier_TaskCoordination", "Barrier_TaskCoordination\Barrier_TaskCoordination.csproj", "{71D1A431-1891-4308-99CF-5DB3470E9ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownEvent_App", "CountdownEvent\CountdownEvent_App.csproj", "{53153AD0-1C6F-4764-99B7-F228F38F7B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEventSlimAndAutoResetEvent", "ManualResetEventSlimAndAutoResetEvent\ManualResetEventSlimAndAutoResetEvent.csproj", "{8CCD4BCD-7E68-48CB-B619-1A6938480BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreSlim", "SemaphoreSlim\SemaphoreSlim.csproj", "{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +119,30 @@ Global
 		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA75D40-38AA-49D2-BA43-D6AE5B511849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA75D40-38AA-49D2-BA43-D6AE5B511849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA75D40-38AA-49D2-BA43-D6AE5B511849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA75D40-38AA-49D2-BA43-D6AE5B511849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9715AE5E-401B-48D8-B22B-084621DEC07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715AE5E-401B-48D8-B22B-084621DEC07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9715AE5E-401B-48D8-B22B-084621DEC07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9715AE5E-401B-48D8-B22B-084621DEC07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D1A431-1891-4308-99CF-5DB3470E9ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D1A431-1891-4308-99CF-5DB3470E9ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D1A431-1891-4308-99CF-5DB3470E9ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D1A431-1891-4308-99CF-5DB3470E9ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53153AD0-1C6F-4764-99B7-F228F38F7B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53153AD0-1C6F-4764-99B7-F228F38F7B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53153AD0-1C6F-4764-99B7-F228F38F7B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53153AD0-1C6F-4764-99B7-F228F38F7B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCD4BCD-7E68-48CB-B619-1A6938480BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCD4BCD-7E68-48CB-B619-1A6938480BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCD4BCD-7E68-48CB-B619-1A6938480BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCD4BCD-7E68-48CB-B619-1A6938480BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +163,12 @@ Global
 		{0910D335-6DA3-4638-B38A-89E14CB46672} = {055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}
 		{3E32AB3F-8A04-4608-87E8-EFA3960CC8E4} = {055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}
 		{B07251B2-7DC2-4B94-AFAA-59D42FE707D0} = {055BAE41-FF8F-4D5E-BEA3-3D5C4C3C8674}
+		{6CA75D40-38AA-49D2-BA43-D6AE5B511849} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
+		{9715AE5E-401B-48D8-B22B-084621DEC07F} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
+		{71D1A431-1891-4308-99CF-5DB3470E9ED7} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
+		{53153AD0-1C6F-4764-99B7-F228F38F7B97} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
+		{8CCD4BCD-7E68-48CB-B619-1A6938480BA5} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
+		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8BC112-80FD-431D-A377-8FB97D665A54}
