@@ -41,17 +41,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockingCollectionAndThePro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_Coordination", "Task_Coordination", "{0632182C-1CBF-4D04-90B5-79419BD8C24A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Continuations", "Continuations\Continuations.csproj", "{6CA75D40-38AA-49D2-BA43-D6AE5B511849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Continuations", "Continuations\Continuations.csproj", "{6CA75D40-38AA-49D2-BA43-D6AE5B511849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildTasks", "ChildTasks\ChildTasks.csproj", "{9715AE5E-401B-48D8-B22B-084621DEC07F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildTasks", "ChildTasks\ChildTasks.csproj", "{9715AE5E-401B-48D8-B22B-084621DEC07F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier_TaskCoordination", "Barrier_TaskCoordination\Barrier_TaskCoordination.csproj", "{71D1A431-1891-4308-99CF-5DB3470E9ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barrier_TaskCoordination", "Barrier_TaskCoordination\Barrier_TaskCoordination.csproj", "{71D1A431-1891-4308-99CF-5DB3470E9ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownEvent_App", "CountdownEvent\CountdownEvent_App.csproj", "{53153AD0-1C6F-4764-99B7-F228F38F7B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountdownEvent_App", "CountdownEvent\CountdownEvent_App.csproj", "{53153AD0-1C6F-4764-99B7-F228F38F7B97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEventSlimAndAutoResetEvent", "ManualResetEventSlimAndAutoResetEvent\ManualResetEventSlimAndAutoResetEvent.csproj", "{8CCD4BCD-7E68-48CB-B619-1A6938480BA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManualResetEventSlimAndAutoResetEvent", "ManualResetEventSlimAndAutoResetEvent\ManualResetEventSlimAndAutoResetEvent.csproj", "{8CCD4BCD-7E68-48CB-B619-1A6938480BA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreSlim", "SemaphoreSlim\SemaphoreSlim.csproj", "{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreSlim", "SemaphoreSlim\SemaphoreSlim.csproj", "{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parallel_Loops", "Parallel_Loops", "{3FBCB706-B5E6-40A3-8D5F-5A182F0EEFBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel_Invoke_For_ForEach", "Parallel_Invoke_For_ForEach\Parallel_Invoke_For_ForEach.csproj", "{E30FF16B-8D88-48BC-989E-E354E246C85C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking_CancellationsAndExceptions", "Breaking_CancellationsAndExceptions\Breaking_CancellationsAndExceptions.csproj", "{DCEE5098-984E-45C1-BC97-6B024FEDA1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread_Local_Storage", "Thread_Local_Storage\Thread_Local_Storage.csproj", "{7488381E-3564-4A87-B312-AF31165BEC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioning", "Partitioning\Partitioning.csproj", "{4DCDD756-88DA-45AA-8A05-A2D2DA4DE0ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +153,22 @@ Global
 		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30FF16B-8D88-48BC-989E-E354E246C85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30FF16B-8D88-48BC-989E-E354E246C85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30FF16B-8D88-48BC-989E-E354E246C85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30FF16B-8D88-48BC-989E-E354E246C85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEE5098-984E-45C1-BC97-6B024FEDA1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEE5098-984E-45C1-BC97-6B024FEDA1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEE5098-984E-45C1-BC97-6B024FEDA1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEE5098-984E-45C1-BC97-6B024FEDA1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7488381E-3564-4A87-B312-AF31165BEC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7488381E-3564-4A87-B312-AF31165BEC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7488381E-3564-4A87-B312-AF31165BEC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7488381E-3564-4A87-B312-AF31165BEC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCDD756-88DA-45AA-8A05-A2D2DA4DE0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCDD756-88DA-45AA-8A05-A2D2DA4DE0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCDD756-88DA-45AA-8A05-A2D2DA4DE0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCDD756-88DA-45AA-8A05-A2D2DA4DE0ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +195,10 @@ Global
 		{53153AD0-1C6F-4764-99B7-F228F38F7B97} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
 		{8CCD4BCD-7E68-48CB-B619-1A6938480BA5} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
 		{E9D60F9A-AA77-4AAF-BF68-35027A5383A2} = {0632182C-1CBF-4D04-90B5-79419BD8C24A}
+		{E30FF16B-8D88-48BC-989E-E354E246C85C} = {3FBCB706-B5E6-40A3-8D5F-5A182F0EEFBD}
+		{DCEE5098-984E-45C1-BC97-6B024FEDA1DF} = {3FBCB706-B5E6-40A3-8D5F-5A182F0EEFBD}
+		{7488381E-3564-4A87-B312-AF31165BEC71} = {3FBCB706-B5E6-40A3-8D5F-5A182F0EEFBD}
+		{4DCDD756-88DA-45AA-8A05-A2D2DA4DE0ED} = {3FBCB706-B5E6-40A3-8D5F-5A182F0EEFBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B8BC112-80FD-431D-A377-8FB97D665A54}
