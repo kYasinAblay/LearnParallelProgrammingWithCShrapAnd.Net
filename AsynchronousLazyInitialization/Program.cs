@@ -7,7 +7,7 @@ namespace AsynchronousLazyInitialization
 {
     public class Stuff
     {
-        private static int value;
+        public static int value;
 
         private readonly Lazy<Task<int>> AutoIncValue =
             new Lazy<Task<int>>(async () =>
@@ -31,19 +31,29 @@ namespace AsynchronousLazyInitialization
              return value++;
          });
 
-        public async Task UseValue()
+        //public async Task UseValue()
+        //{
+        //    int value = await AutoIncValue.Value;
+        //}
+
+        public async Task UseValue3()
         {
-            int value = await AutoIncValue.Value;
+            var task = await AutoIncValue3.Task;
+            int value = task;
         }
 
-      
+
     }
 
     internal class Program
     {
         public static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Deneme yapıldı
+            var stuff = new Stuff();
+            await stuff.UseValue3();
+
+            Console.WriteLine(Stuff.value.ToString());
         }
     }
 }
