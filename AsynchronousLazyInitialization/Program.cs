@@ -35,6 +35,8 @@ namespace AsynchronousLazyInitialization
         {
             int value = await AutoIncValue.Value;
         }
+
+      
     }
 
     internal class Program
