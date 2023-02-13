@@ -25,7 +25,9 @@ namespace BlockingCollectionAndTheProducer_ConsumerPattern
             }
             catch (AggregateException ae)
             {
-                ae.Handle(e => true);
+                ae.Handle(e => {
+                    Console.WriteLine("{0} message: [{1}]",e.StackTrace,e.Message);
+                    return true; });
             }
         }
 
